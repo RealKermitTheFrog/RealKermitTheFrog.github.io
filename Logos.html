@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #add8e6, #4b0082);
+      color: white;
+      line-height: 1.6;
+    }
+    header {
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: rgba(255,255,255,0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      border-radius: 10px;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 0;
+      color: white;
+    }
+    h2 {
+      color: white;
+    }
+    .logos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+      justify-items: center;
+    }
+    .logo-item {
+      background: rgba(255,255,255,0.2);
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .logo-item:hover {
+      transform: translateY(-5px);
+    }
+    .logo-item img {
+      width: 100px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    a {
+      color: #add8e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: white;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Alex, Granada & Co.</h1>
+  </header>
+  <div class="container">
+    <h1>Our Brands</h1>
+    <h2>Television</h2>
+    <div class="logos">
+      <div class="logo-item">
+        <img src="images/AP logo.png" alt="Alex Productions Logo"/>
+      </div>
+      <div class="logo-item">
+        <img src="images/ABTV.png" alt="ABTV Logo"/>
+      </div>
+      <div class="logo-item">
+        <img src="images/NVA.png" alt="NVA Logo"/>
+      </div>
+      <div class="logo-item">
+        <img src="images/The CW.png" alt="The CW Logo"/>
+      </div>
+      <div class="logo-item">
+        <img src="images/DiZtrict.png" alt="DiZtrict Logo"/>
+      </div>
+      <div class="logo-item">
+        <img src="images/Granada.png" alt="Granada Logo"/>
+      </div>
+      <div class="logo-item">
+        <img src="images/Carlton.png" alt="Carlton Logo"/>
+      </div>
+    </div>
+    <p style="margin-top: 40px;"><a href="index.html">Return to Home</a></p>
+  </div>
+  <footer>
+    &copy; 2026 Alex, Granada & Co.
+  </footer>
+</body>
+</html>
